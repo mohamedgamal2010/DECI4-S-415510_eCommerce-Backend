@@ -1,0 +1,111 @@
+{
+  "info": {
+    "_postman_id": "0d2546e5-0773-4223-8760-1e456d7fbcd1",
+    "name": "Cart",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "56124289"
+  },
+  "item": [
+    {
+      "name": "getAllCarts",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/carts",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "carts"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "createNewCart",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/carts",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "carts"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "getCartById",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/carts/6a59abd8b7cbc58f203ae03f",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "carts",
+            "6a59abd8b7cbc58f203ae03f"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "AddNewItem",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"product\": \"6a59a2686b2673e66581b038\",\r\n    \"quantity\": 2\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/carts/6a59abd8b7cbc58f203ae03f/items",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "carts",
+            "6a59abd8b7cbc58f203ae03f",
+            "items"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
