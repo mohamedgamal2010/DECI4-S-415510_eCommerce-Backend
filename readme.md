@@ -9,7 +9,7 @@ This is a robust RESTful API application built to handle the backend operations 
 * **MongoDB & Mongoose:** NoSQL database and Object Data Modeling (ODM) library for data storage.
 * **Security:** 
   * `helmet`: Secures Express apps by setting various HTTP headers.
-  * `express-mongo-sanitize`: Prevents MongoDB Operator Injection (applied specifically to routes handling user input).
+  * `mongoose-sanitize`: Prevents MongoDB Operator Injection (applied specifically to routes handling user input).
 * **dotenv:** Manages environment variables.
 
 ## Installation
