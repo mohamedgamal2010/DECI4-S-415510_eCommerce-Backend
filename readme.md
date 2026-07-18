@@ -1,4 +1,4 @@
-# E-Commerce API App
+# E-Commerce backend API App
 
 ## Description
 This is a robust RESTful API application built to handle the backend operations of an e-commerce platform. It provides endpoints for client and server interactions, allowing users to seamlessly manage database records. Key features include creating, reading, updating, and deleting (CRUD) products, as well as managing shopping carts by adding and reading cart items.
