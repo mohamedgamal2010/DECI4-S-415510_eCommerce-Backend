@@ -9,7 +9,7 @@ This is a robust RESTful API application built to handle the backend operations 
 * **MongoDB & Mongoose:** NoSQL database and Object Data Modeling (ODM) library for data storage.
 * **Security:** 
   * `helmet`: Secures Express apps by setting various HTTP headers.
-  * `mongoose-sanitize`: Prevents MongoDB Operator Injection (applied specifically to routes handling user input).
+  * `mongoose-sanitize`: Prevents MongoDB Operator Injection, protecting the server from NoSQL injection.
 * **dotenv:** Manages environment variables.
 
 ## Installation
@@ -43,6 +43,6 @@ npm start
 *(Note: If you use `nodemon` for development, you can run `npm run dev` assuming it is configured in your `package.json` scripts).*
 
 ## Link of github repo
-```bash
+```bash 
 https://github.com/mohamedgamal2010/DECI4-S-415510_eCommerce-Backend.git
 ```
